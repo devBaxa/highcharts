@@ -1,0 +1,52 @@
+    .highcharts-pie-label {
+        left: calc(50% - 55px) !important;
+        top: calc(50% - 65px) !important;
+
+        & span {
+            display: block;
+        }
+
+        & .left-label {
+            position: absolute;
+            top: 30px;
+            right: 230px;
+            font-size: 45px;
+            font-weight: bold;
+        }
+
+        & .right-label {
+            position: absolute;
+            top: 30px;
+            left: 225px;
+            font-size: 45px;
+            font-weight: bold;
+        }        
+
+        & .first-line {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        & .second-line {
+            font-size: 25px;
+            color: #979797;
+        }       
+    }
+
+    .highcharts-legend-item {
+        & .label-legend + tspan {
+            display: none;
+        }
+    }
+
+    .highcharts-data-labels {
+        & .label-legend {
+            display: none;
+        }
+
+        & .label-legend + i {
+            font-style: normal;
+            font-size: 45px;
+            margin-top: -20px;
+        }       
+    }

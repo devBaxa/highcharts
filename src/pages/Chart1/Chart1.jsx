@@ -25,12 +25,12 @@ class Chart1 extends React.Component {
       },
 
       title: {
-        text: null
+        text: null,
       },
 
       plotOptions: {
         variablepie: {
-            startAngle: 159
+            startAngle: 159,
         },
         series: {
           stacking: "normal",
@@ -50,7 +50,6 @@ class Chart1 extends React.Component {
               color: "#FFFFFF",
               textOutline: "transparent",
               fontSize: "24px",
-              align: "right",
             },
           },
           colors: ["#979797",  "#8B75BA",  "#DDAFD3", "#7EB8BF", "#77954D"],       
@@ -64,7 +63,7 @@ class Chart1 extends React.Component {
             ]}, 
             from: "Медведи <i>65%</i>", 
             to: "Мёд <i>50%</i>", 
-            weight: 10
+            weight: 10,
           },
           {
             color: {
@@ -75,7 +74,7 @@ class Chart1 extends React.Component {
               ]}, 
             from: "Медведи <i>65%</i>", 
             to: "<span class='span-text-right'>Малина <i>20%</i></span>", 
-            weight: 4
+            weight: 4,
           },
           {
             color: {
@@ -86,7 +85,7 @@ class Chart1 extends React.Component {
               ]}, 
             from: "Медведи <i>65%</i>", 
             to: "<span class='span-text-right'>Яблоки <i>30%</i></span>", 
-            weight: 4
+            weight: 4,
           },
           {
             color: {
@@ -97,7 +96,7 @@ class Chart1 extends React.Component {
               ]}, 
             from: "Ежи <i>35%</i>", 
             to: "Мёд <i>50%</i>", 
-            weight: 4
+            weight: 4,
           },
           {
             color: {
@@ -108,7 +107,7 @@ class Chart1 extends React.Component {
               ]}, 
             from: "Ежи <i>35%</i>", 
             to: "<span class='span-text-right'>Малина <i>20%</i></span>", 
-            weight: 4
+            weight: 4,
           },
           {
             color: {
@@ -123,7 +122,7 @@ class Chart1 extends React.Component {
           }
           ],
           type: "sankey",
-          name: ""
+          name: "",
         }
       ]
     };

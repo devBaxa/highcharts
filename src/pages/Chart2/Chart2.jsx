@@ -37,11 +37,13 @@ class Chart2 extends React.Component {
       colors: ["#77954D", "#979797"],
 
       title: {
-        text: null
+        text: null,
       },
 
       tooltip: {
-        enabled: false
+        enabled: true,
+        headerFormat: "",
+        pointFormat: "{point.y}%",
       },
 
       legend: {
@@ -54,12 +56,12 @@ class Chart2 extends React.Component {
         itemMarginBottom: 5,
         itemStyle: {
           font: "18px Arial",
-          color: "#FFFFFF"
+          color: "#FFFFFF",
         }
       },
       plotOptions: {
         variablepie: {
-            startAngle: 158
+            startAngle: 158,
         },
         series: {
           stacking: "normal",
@@ -75,7 +77,7 @@ class Chart2 extends React.Component {
           },
           borderWidth: 0,
           showInLegend: true,
-          size: 300
+          size: 300,
         }
       },
 
@@ -84,18 +86,18 @@ class Chart2 extends React.Component {
           minPointSize: 10,
           innerSize: "80%",
           zMin: 0,
-          name: "Data",
+          name: "",
           data: [
             {
               name: "<span class='label-legend'>Зашифровано</span><i>62%</i>",
               shadow: false,
               y: 62,
-              z: 10
+              z: 10,
             },
             {
               name: "<span class='label-legend'>Незашифровано</span><i>38%</i>",
               y: 38,
-              z: 10
+              z: 10,
             }
           ]
         }

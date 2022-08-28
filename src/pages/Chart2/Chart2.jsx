@@ -43,7 +43,7 @@ class Chart2 extends React.Component {
       tooltip: {
         enabled: true,
         headerFormat: "",
-        pointFormat: "{point.y}%",
+        pointFormat: "{point.y}",
       },
 
       legend: {
@@ -91,12 +91,12 @@ class Chart2 extends React.Component {
             {
               name: "<span class='label-legend'>Зашифровано</span><i>62%</i>",
               shadow: false,
-              y: 62,
+              y: 133,
               z: 10,
             },
             {
               name: "<span class='label-legend'>Незашифровано</span><i>38%</i>",
-              y: 38,
+              y: 82,
               z: 10,
             }
           ]

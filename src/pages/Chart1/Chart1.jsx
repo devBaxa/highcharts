@@ -49,6 +49,7 @@ class Chart1 extends React.Component {
               strokeWidth: 0,
               color: "#FFFFFF",
               textOutline: "transparent",
+              fontFamily: "Arial",
               fontSize: "26px",
               fontWeight: "normal",
             },
